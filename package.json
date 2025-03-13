@@ -1,0 +1,22 @@
+{
+  "name": "reminder_rest_api",
+  "version": "1.0.0",
+  "description": "A REST API for managing reminders using Hono",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.7.4",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "author": "Suprith N",
+  "license": "MIT"
+}
