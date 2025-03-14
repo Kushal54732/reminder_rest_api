@@ -12,7 +12,7 @@ class ReminderDatabase {
         this.reminders.set(id, Object.assign(Object.assign({}, reminder), { id, isCompleted: false }));
         console.log(`Reminder created successfully with id: ${id}\n`);
         return id;
-    }
+    }    git init    git init    git add .    git add .
     // Get a reminder by ID
     getReminder(id) {
         return this.reminders.get(id);
